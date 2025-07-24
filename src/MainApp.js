@@ -52,9 +52,9 @@ function MainApp({ loggedInEmail }) {
       a.download = `${file.name}.encrypted`;
       a.click();
 
-      setCountdown(30);
+      setCountdown(120);
       setTimerActive(true);
-      alert("Encrypted! AES & IV sent via email. File will auto-delete in 30 sec.");
+      alert("Encrypted! AES & IV sent via email. File will auto-delete in 2 min.");
     } catch (error) {
       alert("Encryption failed: " + error.message);
     }
