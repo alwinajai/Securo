@@ -1,10 +1,10 @@
-# 🔐 SECURO: Secure File Transfer App
+# 🔐SECURO: Secure File Transfer App
 
 SECURO is a web-based secure file transfer platform built with **React** that enables users to upload, encrypt, and share files securely. It leverages **AES-256 encryption** for confidentiality and delivers encryption keys via **EmailJS** to the user’s registered email. Firebase handles authentication for safe and seamless user management.
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -23,7 +23,7 @@ SECURO is a web-based secure file transfer platform built with **React** that en
 
 ---
 
-## ✅ Features
+##Features
 
 - 🔐 AES-256 client-side file encryption
 - 📤 Secure file upload and download
@@ -35,7 +35,7 @@ SECURO is a web-based secure file transfer platform built with **React** that en
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend**: ReactJS, TailwindCSS, Framer Motion  
 - **Encryption**: AES-256 (Web Crypto API)  
@@ -45,7 +45,7 @@ SECURO is a web-based secure file transfer platform built with **React** that en
 
 ---
 
-## 🔒 AES-256 Encryption Explained
+## AES-256 Encryption Explained
 
 **AES-256** is a symmetric encryption algorithm that uses a 256-bit key. It is widely used for high-grade encryption due to its strength and performance.
 
@@ -59,7 +59,7 @@ SECURO is a web-based secure file transfer platform built with **React** that en
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 ```text
 User Interface (React)
@@ -77,9 +77,9 @@ Send AES Key + IV → EmailJS → Registered Email
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🔧 Prerequisites
+### Prerequisites
 
 Ensure the following are installed on your system:
 
@@ -101,7 +101,7 @@ npm install
 
 ---
 
-## 🔥 Firebase Configuration
+## Firebase Configuration
 
 1. Visit [Firebase Console](https://console.firebase.google.com)
 2. Click **“Add project”** → Enter a project name → Continue
@@ -131,7 +131,7 @@ export const auth = getAuth(app);
 
 ---
 
-## 📧 EmailJS Integration
+## EmailJS Integration
 
 1. Go to [EmailJS](https://www.emailjs.com) → Create an account
 2. Add a **new email service** (e.g., Gmail)
@@ -165,7 +165,7 @@ export const sendKeysByEmail = (recipient, aesKey, ivKey) => {
 
 ---
 
-## 💡 Usage Guide
+## Usage Guide
 
 1. Run the app:
 
@@ -182,7 +182,7 @@ npm start
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 securo/
@@ -202,7 +202,7 @@ securo/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for:
 
@@ -214,13 +214,5 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ---
 
 ## 📄 License
-
 This project is licensed under the [MIT License](LICENSE).
-
 ---
-
-## 📬 Contact
-
-For queries, contact:  
-**Your Name** – [LinkedIn](https://linkedin.com/in/your-profile)  
-**GitHub** – [https://github.com/your-username](https://github.com/your-username)
