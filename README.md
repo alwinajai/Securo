@@ -27,7 +27,7 @@ SECURO is a web-based secure file transfer platform built with **React** that en
 
 - 🔐 AES-256 client-side file encryption
 - 📤 Secure file upload and download
-- ⏱️ **Auto-deletes file after 30 seconds** (timing is adjustable in the MainApp.js file)
+- ⏱️ **Auto-deletes file after 2 minutes** (timing is adjustable in the MainApp.js file)
 - ✉️ Key delivery through EmailJS
 - 🔒 Firebase email/password-based authentication
 - 🔁 Auto file deletion post-download
